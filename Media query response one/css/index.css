@@ -1,0 +1,360 @@
+/* 头部样式 */
+body,
+ul,
+li,
+a {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+body {
+	background-color: #f4f4f4;
+}
+
+header {
+	width: 100%;
+	height: 60px;
+	background-color: #fff;
+	margin-bottom: 20px;
+	box-shadow: 0px 0px 5px 5px #ccc;
+}
+
+.top {
+	height: 60px;
+	width: 60%;
+	margin: 0 auto;
+	/* border: 1px solid green; */
+	display: flex;
+	justify-content: space-between;
+}
+
+.left {
+	flex-grow: 1;
+	/* border: 1px solid #008000; */
+	display: flex;
+	/* justify-content: center; */
+	align-items: center;
+}
+
+.left img {
+	height: 40px;
+}
+
+.center {
+	flex-grow: 2;
+	/* border: 1px solid #008000; */
+}
+
+.center ul {
+	width: 100%;
+	display: flex;
+	/* justify-content: center; */
+	align-items: center;
+}
+
+.center ul li {
+	padding: 0px 10px;
+	height: 60px;
+	position: relative;
+}
+
+.center ul li:hover div {
+	display: block;
+}
+
+.center ul li a {
+	display: block;
+	text-align: center;
+	line-height: 60px;
+	font-size: 12px;
+	color: grey;
+}
+
+.center ul li a span {
+	padding-left: 5px;
+}
+
+/* 二级下拉菜单样式 */
+.nav_l {
+	width: 130px;
+	background-color: #fff;
+	position: absolute;
+	top: 45px;
+	display: none;
+	z-index: 1;
+}
+
+.nav_l ul {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	margin-top: -10px;
+}
+
+.nav_l ul li {
+	width: 80%;
+	height: 37px;
+	text-align: center;
+
+}
+
+.nav_l ul li a {
+	display: flex;
+	align-items: center;
+}
+
+.nav_l ul li a img {
+	height: 14px;
+}
+
+.nav_l ul li a span {
+	margin-top: -2px;
+	padding-left: 15px;
+}
+
+.right {
+	flex-grow: 3;
+	/* border: 1px solid #008000; */
+}
+
+.right ul {
+	width: 100%;
+	height: 54px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.right ul li a {
+	font-size: 12px;
+	color: #808080;
+}
+
+/* 导航样式 */
+nav {
+	width: 60%;
+	height: 80px;
+	margin: 0 auto;
+	box-shadow: 0px 5px 5px #ccc;
+	/* border: 1px solid green; */
+	background-color: #fff;
+}
+
+nav ul {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 80px;
+}
+
+nav ul li:first-child {
+	border: 1px soild gainsboro;
+	background-color: gray;
+	padding: 10px 20px;
+	border-radius: 5px;
+}
+
+nav ul li a {
+	color: gray;
+}
+
+nav ul li:first-child a {
+	color: #CCCCCC !important;
+}
+
+/* 内容样式开始 */
+#content {
+	width: 60%;
+	/* border: 1px solid blue; */
+	margin: 20px auto;
+
+}
+
+.content {
+	width: 100%;
+	/* border: 1px solid #0000FF;
+				 height: 300px; */
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+}
+
+.content section {
+	width: 23%;
+	height: 200px;
+	/* border: 1px solid #0000FF; */
+	position: relative;
+	min-width: 201px;
+	margin-top: 12px;
+}
+
+.content section div a {
+	position: absolute;
+	border: 2px solid white;
+	border-radius: 7px;
+	font-size: 12px;
+	color: black;
+	background-color: yellow;
+	top: 10px;
+	left: -10px;
+}
+
+.content section div img {
+	height: 114px;
+	position: absolute;
+	border-radius: 8px;
+	min-width: 114px;
+}
+
+.content section div div {
+	position: absolute;
+	top: 80px;
+	left: 14px;
+
+}
+
+.content section a {
+	position: absolute;
+	top: 115px;
+	left: 5px;
+	font-size: 13px;
+	color: #000000;
+
+}
+
+.content section a:hover {
+	color: gray;
+}
+
+.s {
+	position: absolute;
+	top: 150px;
+
+}
+
+.s span {
+	font-size: 12px;
+	color: #808080;
+	padding: 5px;
+}
+
+#s {
+	background-color: blueviolet;
+	color: aliceblue;
+	border-radius: 5px;
+}
+
+#sh {
+	color: blue;
+}
+
+.ss {
+	position: absolute;
+	top: 180px;
+}
+
+.ss span {
+	font-size: 12px;
+	color: #808080;
+	padding: 2px;
+}
+
+#ss {
+	background-color: darkred;
+	color: aliceblue;
+	border-radius: 5px;
+	margin-left: 13px;
+}
+
+#ssh {
+	color: blue;
+}
+
+.content section div div span {
+	font-size: 12px;
+	background-color: gray;
+	border-radius: 3px;
+	color: aliceblue;
+}
+
+/* 分页 */
+#page {
+	width: 60%;
+	margin: 0 auto;
+	/* border: 1px solid #0000FF; */
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+
+}
+
+#page article {
+	border: 1px solid gray;
+	padding: 3px;
+	margin-left: 5px;
+	background-color: grey;
+}
+
+#page article:hover {
+	background-color: #CCCCCC;
+}
+
+#page article a {
+	color: white;
+}
+
+footer {
+	width: 100%;
+	height: 370px;
+	background-color: #fff;
+}
+
+.footer {
+	width: 60%;
+	border: 1px solid gray;
+	height: 350px;
+	margin: 0 auto;
+	display: flex;
+}
+
+
+
+.f_l {
+	border: 1px solid balck;
+	flex-grow: 5;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.f_l img {
+	width: 200px;
+}
+
+.f_l p {
+	font-size: 15px;
+}
+
+.f_c {
+	border: 1px solid balck;
+	flex-grow: 5;
+
+}
+
+.footer_bottom {
+	width: 100%;
+	height: 20px;
+
+}
+
+.footer_bottom section {
+	width: 8%;
+	margin: 0 auto;
+}
+.pad{
+	display: none;
+}

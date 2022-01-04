@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>响应式</title>
+		<link rel="stylesheet" href="./css/index.css">
+		<link rel="stylesheet" href="css/pad.css">
+		<link rel="stylesheet" href="./css/yd.css">
+		<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
+	</head>
+	<body>
+		<!-- 头部样式 -->
+		<header>
+			<section class="top">
+				<section class="left">
+					<img src="img/logo.ca1ae0c.png"/>
+				</section>
+				<section class="center">
+					<ul>
+						<li>
+							<a href="#">学习猿地<span>v</span></a>
+							<div class="nav_l">
+								<ul>
+									<li><a href="#"><img src="./img/1.png" /><span>java自学路线</span></a></li>
+									<li><a href="#"><img src="./img/1.png" /><span>java自学路线</span></a></li>
+									<li><a href="#"><img src="./img/1.png" /><span>java自学路线</span></a></li>
+									<li><a href="#"><img src="./img/1.png" /><span>java自学路线</span></a></li>
+									<li><a href="#"><img src="./img/1.png" /><span>java自学路线</span></a></li>
+									<li><a href="#"><img src="./img/1.png" /><span>java自学路线</span></a></li>
+								</ul>
+							</div>
+						</li>
+						<li><a href="#">学习猿地</a></li>
+						<li><a href="#">学习猿地</a></li>
+						<li><a href="#">学习猿地</a></li>
+						<li><a href="#">学习猿地</a></li>
+						<li><a href="#">学习猿地</a></li>
+						<li><a href="#">学习猿地</a></li>
+						<li><a href="#">学习猿地</a></li>
+						<li><a href="#">学习猿地</a></li>
+					</ul>
+				</section>
+				<section class="right">
+					<ul>
+						<li><a href="#">登录</a></li>
+						<li><a href="#">注册</a></li>
+					</ul>
+				</section>
+				<section class="pad">
+					<div>
+						<img src="img/1.png" class="q" />
+						<div>
+							<ul class="t">
+								<li><a href="#">更多课程</a></li>
+								<li><a href="#">更多课程</a></li>
+								<li><a href="#">更多课程</a></li>
+								<li><a href="#">更多课程</a></li>
+								<li><a href="#">更多课程</a></li>
+							</ul>
+							<div class="t1">退出</div>
+						</div>
+					</div>
+				</section>
+			</section>
+		</header>
+		<script>
+			let a = document.querySelector(".q");
+			let b = document.querySelector(".t");
+			let c = document.querySelector(".t1");
+			function overShow() {
+									b.style.display='block';
+									c.style.display='block';
+								}
+								function overHidden(){
+									b.style.display='none';
+									c.style.display='none';
+								}
+								a.addEventListener('mouseover',overShow);
+								c.addEventListener('mouseout',overHidden);	
+		</script>
+		<!-- 导航 -->
+		<nav>
+			<ul>
+				<li><a href="#">全部</a></li>
+				<li><a href="#">全部</a></li>
+				<li><a href="#">全部</a></li>
+				<li><a href="#">全部</a></li>
+				<li><a href="#">全部</a></li>
+				<li><a href="#">全部</a></li>
+				<li><a href="#">全部</a></li>
+				<li><a href="#">全部</a></li>
+				<li><a href="#">全部</a></li>
+				<li><a href="#">全部</a></li>
+			</ul>
+		</nav>
+		<!-- 内容区域 -->
+		<section id="content">
+			<section class="content">
+				<section>
+					<div>
+						<img src="./img/11.png" />
+						<a>升级</a>
+						<div>
+							<span>python</span>
+							<span>核心课程</span>
+						</div>
+					</div>
+					<a href="#">python高级课程</a>
+					<div class="s">
+						<span id="s">python</span>
+						<span>高级</span>
+						<span>5267人</span>
+						<span id="sh">五星</span>
+					</div>
+					<div class="ss">
+						<span>2021-1-1</span>
+						<span id="shh">已更新主列表</span>
+						<span id="ss">python</span>
+					</div>
+				</section>
+				<section>
+					<div>
+						<img src="./img/11.png" />
+						<a>升级</a>
+						<div>
+							<span>python</span>
+							<span>核心课程</span>
+						</div>
+					</div>
+					<a href="#">python高级课程</a>
+					<div class="s">
+						<span id="s">python</span>
+						<span>高级</span>
+						<span>5267人</span>
+						<span id="sh">五星</span>
+					</div>
+					<div class="ss">
+						<span>2021-1-1</span>
+						<span id="shh">已更新主列表</span>
+						<span id="ss">python</span>
+					</div>
+				</section>
+				<section>
+					<div>
+						<img src="./img/11.png" />
+						<a>升级</a>
+						<div>
+							<span>python</span>
+							<span>核心课程</span>
+						</div>
+					</div>
+					<a href="#">python高级课程</a>
+					<div class="s">
+						<span id="s">python</span>
+						<span>高级</span>
+						<span>5267人</span>
+						<span id="sh">五星</span>
+					</div>
+					<div class="ss">
+						<span>2021-1-1</span>
+						<span id="shh">已更新主列表</span>
+						<span id="ss">python</span>
+					</div>
+				</section>
+				<section>
+					<div>
+						<img src="./img/11.png" />
+						<a>升级</a>
+						<div>
+							<span>python</span>
+							<span>核心课程</span>
+						</div>
+					</div>
+					<a href="#">python高级课程</a>
+					<div class="s">
+						<span id="s">python</span>
+						<span>高级</span>
+						<span>5267人</span>
+						<span id="sh">五星</span>
+					</div>
+					<div class="ss">
+						<span>2021-1-1</span>
+						<span id="shh">已更新主列表</span>
+						<span id="ss">python</span>
+					</div>
+				</section>
+			</section>
+			<section class="content">
+				<section>
+					<div>
+						<img src="./img/11.png" />
+						<a>升级</a>
+						<div>
+							<span>python</span>
+							<span>核心课程</span>
+						</div>
+					</div>
+					<a href="#">python高级课程</a>
+					<div class="s">
+						<span id="s">python</span>
+						<span>高级</span>
+						<span>5267人</span>
+						<span id="sh">五星</span>
+					</div>
+					<div class="ss">
+						<span>2021-1-1</span>
+						<span id="shh">已更新主列表</span>
+						<span id="ss">python</span>
+					</div>
+				</section>
+				<section>
+					<div>
+						<img src="./img/11.png" />
+						<a>升级</a>
+						<div>
+							<span>python</span>
+							<span>核心课程</span>
+						</div>
+					</div>
+					<a href="#">python高级课程</a>
+					<div class="s">
+						<span id="s">python</span>
+						<span>高级</span>
+						<span>5267人</span>
+						<span id="sh">五星</span>
+					</div>
+					<div class="ss">
+						<span>2021-1-1</span>
+						<span id="shh">已更新主列表</span>
+						<span id="ss">python</span>
+					</div>
+				</section>
+				<section>
+					<div>
+						<img src="./img/11.png" />
+						<a>升级</a>
+						<div>
+							<span>python</span>
+							<span>核心课程</span>
+						</div>
+					</div>
+					<a href="#">python高级课程</a>
+					<div class="s">
+						<span id="s">python</span>
+						<span>高级</span>
+						<span>5267人</span>
+						<span id="sh">五星</span>
+					</div>
+					<div class="ss">
+						<span>2021-1-1</span>
+						<span id="shh">已更新主列表</span>
+						<span id="ss">python</span>
+					</div>
+				</section>
+				<section>
+					<div>
+						<img src="./img/11.png" />
+						<a>升级</a>
+						<div>
+							<span>python</span>
+							<span>核心课程</span>
+						</div>
+					</div>
+					<a href="#">python高级课程</a>
+					<div class="s">
+						<span id="s">python</span>
+						<span>高级</span>
+						<span>5267人</span>
+						<span id="sh">五星</span>
+					</div>
+					<div class="ss">
+						<span>2021-1-1</span>
+						<span id="shh">已更新主列表</span>
+						<span id="ss">python</span>
+					</div>
+				</section>
+			</section>
+			<section class="content">
+				<section>
+					<div>
+						<img src="./img/11.png" />
+						<a>升级</a>
+						<div>
+							<span>python</span>
+							<span>核心课程</span>
+						</div>
+					</div>
+					<a href="#">python高级课程</a>
+					<div class="s">
+						<span id="s">python</span>
+						<span>高级</span>
+						<span>5267人</span>
+						<span id="sh">五星</span>
+					</div>
+					<div class="ss">
+						<span>2021-1-1</span>
+						<span id="shh">已更新主列表</span>
+						<span id="ss">python</span>
+					</div>
+				</section>
+				<section>
+					<div>
+						<img src="./img/11.png" />
+						<a>升级</a>
+						<div>
+							<span>python</span>
+							<span>核心课程</span>
+						</div>
+					</div>
+					<a href="#">python高级课程</a>
+					<div class="s">
+						<span id="s">python</span>
+						<span>高级</span>
+						<span>5267人</span>
+						<span id="sh">五星</span>
+					</div>
+					<div class="ss">
+						<span>2021-1-1</span>
+						<span id="shh">已更新主列表</span>
+						<span id="ss">python</span>
+					</div>
+				</section>
+				<section>
+					<div>
+						<img src="./img/11.png" />
+						<a>升级</a>
+						<div>
+							<span>python</span>
+							<span>核心课程</span>
+						</div>
+					</div>
+					<a href="#">python高级课程</a>
+					<div class="s">
+						<span id="s">python</span>
+						<span>高级</span>
+						<span>5267人</span>
+						<span id="sh">五星</span>
+					</div>
+					<div class="ss">
+						<span>2021-1-1</span>
+						<span id="shh">已更新主列表</span>
+						<span id="ss">python</span>
+					</div>
+				</section>
+				<section>
+					<div>
+						<img src="./img/11.png" />
+						<a>升级</a>
+						<div>
+							<span>python</span>
+							<span>核心课程</span>
+						</div>
+					</div>
+					<a href="#">python高级课程</a>
+					<div class="s">
+						<span id="s">python</span>
+						<span>高级</span>
+						<span>5267人</span>
+						<span id="sh">五星</span>
+					</div>
+					<div class="ss">
+						<span>2021-1-1</span>
+						<span id="shh">已更新主列表</span>
+						<span id="ss">python</span>
+					</div>
+				</section>
+			</section>
+		</section>
+		<!-- 分页-->
+		<section id="page">
+			<article><a href="#">1</a></article>
+			<article><a href="#">2</a></article>
+			<article><a href="#">3</a></article>
+			<article><a href="#">4</a></article>
+			<article><a href="#">5</a></article>
+		</section>
+		<!-- 底部样式 -->
+		<footer>
+			<section class="footer">
+				<section class="f_l">
+					<img src="img/logo.ca1ae0c.png" />
+					<p>
+						学习猿地根据IT方向的线上学习特点，研发人机互动教学系统，打造领先的学习模式。平台签约了十名大牛联合创办， 每个合伙人再召集几名身边的技术大咖，根据程序员的岗位需求研发精品课程， 并将一门学科中所需要的全部学习资料汇总在一起，
+						且实时更新选中一门课程即拥有全部的精品学习资源不需要再找其它资源补充。
+					</p>
+				</section>
+			</section>
+		</footer>
+		<section class="footer_bottom">
+			<section>&copy;河北版权所有</section>
+		</section>
+	</body>
+</html>
