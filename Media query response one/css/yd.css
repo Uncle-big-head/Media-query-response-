@@ -62,6 +62,7 @@
 		right: 10px;
 		top:267px;
 		font-family: "楷体";
+		display: none;
 	}
 	/* 导航 */
 	nav{
@@ -90,6 +91,8 @@
 		border-radius: 5px;
 		box-shadow: 0px 0px 5px 5px #ccc;
 		margin-bottom: 10px;
+		/* min-width: 280px; */
+		
 	}
 	.content section{
 		margin-bottom: 10px;

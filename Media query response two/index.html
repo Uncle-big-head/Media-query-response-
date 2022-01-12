@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="./css/index.css">
+		<link rel="stylesheet" href="css/pad.css">
+		<link rel="stylesheet" href="./css/yd.css">
+		<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
+		<title>响应式</title>
+	</head>
+	<body>
+		<header>
+			<!-- nav -->
+			<nav>
+				<section>
+					<div>
+						<img src="img/1.png" id="an" />
+						<img src="img/logo.png" />
+						<ul id="ca">
+							<li><a href="#">合作</a></li>
+							<li><a href="#">合作</a></li>
+							<li><a href="#">合作</a></li>
+							<li><a href="#">合作</a></li>
+							<li><a href="#">合作</a></li>
+							<li><a href="#">合作</a></li>
+							<li><a href="#">合作</a></li>
+							<li><a href="#">合作</a></li>
+							<li id="w"><a href="#">x</a></li>
+						</ul>
+					</div>
+					
+					<div>
+						<ul>
+							<li>
+								<a href="#">简介</a>
+								<ul>
+									<li><a href="#">合作</a></li>
+									<li><a href="#">合作</a></li>
+									<li><a href="#">合作</a></li>
+									<li><a href="#">合作</a></li>
+									<li><a href="#">合作</a></li>
+									<li><a href="#">合作</a></li>
+									<li><a href="#">合作</a></li>
+									<li><a href="#">合作</a></li>
+								</ul>
+							</li>
+							<li><a href="#">业务</a></li>
+							<li><a href="#">人才</a></li>
+							<li><a href="#">社会责任</a></li>
+							<li><a href="#">合作案例</a></li>
+							<li><a href="#">投资者</a></li>
+							<li><a href="#">媒体</a></li>
+						</ul>
+					</div>
+					<div>
+						<ul>
+							<li><a href="#">简体/</a></li>
+							<li><a href="#">繁/</a></li>
+							<li><a href="#">English</a></li>
+						</ul>
+					</div>
+				</section>
+			</nav>
+			<!-- banner -->
+			<div id="banner">
+				<img src="img/banner.jpg" />
+			</div>
+		</header>
+		<script>
+			const an = document.querySelector('#an');
+			const ca = document.querySelector('#ca');
+			const caa = document.querySelector('#w');
+		
+			function overShow() {
+				ca.style.display = 'block';
+			}
+		
+			function overHidden() {
+				ca.style.display = 'none';
+			}
+			an.addEventListener('mouseover', overShow);
+			caa.addEventListener('mouseout', overHidden);
+		</script>
+		<!-- 中间内容文字 -->
+		<div class="nr">
+			<div>
+				<p>美图公司成立于2008年10月，是一家以“美”为内核、以人工智能为驱动的科技公司，通过影像产品和颜值管理服务帮助用户全方位变美，通过SaaS服务助力美丽产业数字化升级。</p>
+			</div>
+		</div>
+		<!-- 中间三个图片 -->
+		<div class="sb">
+			<div>
+				<ul>
+					<li> <img src="img/1111.jpg"/><a href="#">美图简介</a></li>
+					<li> <img src="img/1111.jpg"/><a href="#">美图助力</a></li>
+					<li> <img src="img/1111.jpg"/><a href="#">美图资料</a></li>
+				</ul>
+			</div>
+		</div>
+		<!-- 下面导航 -->
+		<div class="xdh">
+			<div>
+				<ul>
+					<li><a href="#">面向用户</a><span>|</span></li>
+					<li><a href="#">面向行业</a><span>|</span></li>
+					<li><a href="#">核心技术</a></li>
+				</ul>
+			</div>
+		</div>
+		<!-- 中下内容 -->
+		<section class="xx">
+			<section>
+				<div>
+					<section>
+						 <img src="img/b1.png"/>
+						<p><a href="#">美图秀秀</a></p> 
+					</section>
+					<p>广受欢迎的图片处理软件，全球累计超10亿用户，在摄影图像类应用中长期保持领先优势，目前美图秀秀已从单一的图片处理工具转型成以让用户变美为核心的社区平台。</p>
+					<a href="#">>>查看详情</a>
+				</div>
+				<div>
+					<section>
+						 <img src="img/b2.png"/>
+						<p><a href="#">美图秀秀</a></p> 
+					</section>
+					<p>面向年轻用户推出的潮流个性相机APP，以人像为核心，为用户提供强大而简单的变美功能！据大数据显示，美颜相机用户规模及月活均位列行业第一。</p>
+					<a href="#">>>查看详情</a>
+					<div>
+						<a href="#">查看更多业务</a>
+					</div>
+				</div>
+				<div>
+					<section>
+						 <img src="img/b2.png"/>
+						<p><a href="#">美图秀秀</a></p> 
+					</section>
+					<p>女生最爱的潮流短视频社区。这里有超多有趣又好看的原创短视频，酷炫嘻哈特效、百变魔法表情以及最好用的剪辑、字幕、变声功能，让普通视频一秒变大片！</p>
+					<a href="#">>>查看详情</a> 
+				</div>
+			</section>
+		</section>
+		<!-- yd -->
+		<section class="xxx">
+			<section>
+				<div>
+					<div>
+						<img src="img/b1.png"/>
+						<p><a href="#">美图照片</a></p>
+					</div>
+					<p>广受欢迎的图片处理软件，全球累计超10亿用户，在摄影图像类应用中长期保持领先优势，目前美图秀秀已从单一的图片处理工具转型成以让用户变美为核心的社区平台。</p>
+					<a href="#">>>查看详情</a>
+				</div>
+				<div>
+					<div>
+						<img src="img/b1.png"/>
+						<p><a href="#">美图照片</a></p>
+					</div>
+					<p>广受欢迎的图片处理软件，全球累计超10亿用户，在摄影图像类应用中长期保持领先优势，目前美图秀秀已从单一的图片处理工具转型成以让用户变美为核心的社区平台。</p>
+					<a href="#">>>查看详情</a>
+				</div>
+				<div>
+					<div>
+						<img src="img/b1.png"/>
+						<p><a href="#">美图照片</a></p>
+					</div>
+					<p>广受欢迎的图片处理软件，全球累计超10亿用户，在摄影图像类应用中长期保持领先优势，目前美图秀秀已从单一的图片处理工具转型成以让用户变美为核心的社区平台。</p>
+					<a href="#">>>查看详情</a>
+					<section>
+						<a href="#">查看更多</a>
+					</section>
+				</div>
+			</section>
+		</section>
+		<!-- foot -->
+		<footer>
+			<hr>
+			<p>&copy周鑫帅第二份媒体查询练习</p>
+		</footer>
+	</body>
+</html>
