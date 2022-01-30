@@ -1,0 +1,442 @@
+body{
+    width: 100%;
+    max-width: 640px;
+    min-width: 320px;
+    margin: 0 auto;
+    background-color: #F6F6F6;
+    font-size: 14px;
+    color: #666;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+ul,ol{
+    margin: 0;
+    padding: 0;
+}
+/* header */
+/* app */
+.app{
+    width: 100%;
+    height:48px;
+    background-color:#333333 ;
+    display: flex;
+    justify-content: space-arounds;
+    align-items: center;
+}
+.app div:nth-child(1){
+    width:10%;
+    height: 100%;
+    /* border: 1px solid red; */
+    position: relative;
+}
+.app div:nth-child(1) img{
+    position: absolute;
+    top:10px;
+    left: 2px;
+    width: 30px;
+}
+.app div:nth-child(2){
+    width: 15%;
+    height: 100%;
+    /* border: 1px solid yellow; */
+    position: relative;
+}
+.app div:nth-child(2) img{
+    width: 35px;
+    position: absolute;
+    top:6px;
+}
+.app div:nth-child(3){
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid blue; */
+    position: relative;
+}
+.app div:nth-child(3) p{
+    position: absolute;
+    left:5px;
+    color:#FFFFFF ;
+}
+.app div:nth-child(4){
+    width: 25%;
+    height: 100%;
+    /* border: 1px solid darkgoldenrod; */
+    background-color: #F43612;
+}
+.app div:nth-child(4) a{
+    display: block;
+    text-align: center;
+    line-height: 48px;
+    text-decoration: none;
+    color:#FFFFFF;
+}
+/* nav */
+.nav{
+    width:100%;
+    height: 44px;
+    background-color: #E43130;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav div:nth-child(1){
+    width: 16%;
+    height: 100%;
+    /* background: 1px solid black;
+    background-color: black; */
+    position: relative;
+}
+.nav div:nth-child(1) img{
+    width: 20px;
+    height: 18px;
+    position: absolute;
+    top:13px;
+    left: 18px;
+}
+.nav div:nth-child(2){
+    width:68%;
+    height: 100%;
+    /* background-color: blue; */
+    position: relative;
+}
+.nav div:nth-child(2) div{
+    width: 100%;
+    height: 30px;
+    background-color:#F7F7F7; 
+    border-radius: 50px;
+    position: absolute;
+    top:7px;
+    left: -2px;
+}
+.nav div:nth-child(2) div img:first-child{
+    width: 20px;
+    height: 15px;
+    margin-top: -5px;
+    margin-left: -3px;
+}
+.nav div:nth-child(2) div  span{
+    position: absolute;
+    top:4px;
+    left: 45px;
+    color: #E2E2E2;
+}
+#sf{
+    position: absolute;
+    top:7px;
+    left: 54px;
+    width: 16px;
+    height: 16px;
+}
+.nav div:nth-child(2) div input{
+    width: 40%;
+    position: absolute;
+    top: 5px;
+    left: 80px;
+    background-color:#F7F7F7;
+    border:none;
+    color: #757575;
+}
+.nav div:nth-child(3){
+    width:16%;
+    height: 100%;
+    /* background-color:black; */
+    position: relative;
+}
+.nav div:nth-child(3) a{
+    position: absolute;
+    top: 11px;
+    left:14px;
+    text-decoration: none;
+    color:#FDFFDE;
+}
+/* banner */
+.banner{
+    width: 100%;
+    height: 325.5px;
+    background: url(../img/bj.png)no-repeat;
+    background-size:100% 80%;
+}
+.banner div{
+    width:93%;
+    height: 145px;
+    /* background-color: darkgoldenrod; */
+    margin: 0 auto;
+    border-radius:10px;
+    position: relative;
+    top:30px;
+}
+.banner div ul{
+    width: 100%;
+    height: 100%;
+}
+.banner div ul li{
+    list-style-type: none;
+}
+.banner div ul li img{
+    width:100%;
+    height:145px;
+    margin: 0 auto;
+    border-radius:10px;
+}
+/* 小点点 */
+.banner div ol{
+    width: 100%;
+    height: 8px;
+    /* background-color: rgb(66, 58, 38); */
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner div ol li{
+    width: 9px;
+    height:8px;
+    background-color:rgb(75, 67, 67);
+    border-radius: 50%;
+    list-style-type: none;
+    margin-left: 5px;
+    opacity: .5;
+}
+/* banner下 */
+/* 导航中 */
+.navz{
+    width: 100%;
+    height: 169px;
+    /* border: 1px solid red; */
+    margin-top: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.navz div{
+    width: 20%;
+    height: 100%;
+    background-color: #F6F6F6;
+    margin-top: -60px;
+    border-radius:0px;
+}
+.navz div:first-child{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.navz div:first-child img{
+    width: 42px;
+    height: 42px;
+}
+.navz div:first-child a{
+    padding-top: -10px;
+    text-decoration: none;
+    color: #666;
+}
+.navz div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.navz div:nth-child(2) img{
+    width: 42px;
+    height: 42px;
+}
+.navz div:nth-child(2) a{
+    padding-top: -10px;
+    text-decoration: none;
+    color: #666;
+}
+.navz div:nth-child(3){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.navz div:nth-child(3) img{
+    width: 42px;
+    height: 42px;
+}
+.navz div:nth-child(3) a{
+    padding-top: -10px;
+    text-decoration: none;
+    color: #666;
+}
+.navz div:nth-child(4){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.navz div:nth-child(4) img{
+    width: 42px;
+    height: 42px;
+}
+.navz div:nth-child(4) a{
+    padding-top: -10px;
+    text-decoration: none;
+    color: #666;
+}
+.navz div:nth-child(5){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.navz div:nth-child(5) img{
+    width: 42px;
+    height: 42px;
+}
+.navz div:nth-child(5) a{
+    padding-top: -10px;
+    text-decoration: none;
+    color: #666;
+}
+.d{
+    width: 100%;
+    height: 10px;
+    /* background-color: #666; */
+    z-index:5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.d li{
+    list-style-type: none;
+    width: 10px;
+    height: 10px;
+    background-color: #E2E2E2;
+    z-index: 5;
+    margin: 0px 2px;
+    border-radius: 50%;
+}
+/* 商品 */
+.sp{
+    width: 100% !important;
+    height: 350px!important;
+    /* border:1px solid red;  */
+    margin-bottom: 20px !important;
+    display: flex;
+    justify-content: center;
+    /* background-color: gainsboro; */
+}
+.sp div:first-child{
+    width: 50% !important;
+    height: 100% !important;
+    background-color:white;
+    margin: 0px 20px;
+    margin-top: -30px;
+    margin-left:25px;
+    position: relative;
+}
+.sp div:nth-child(2){
+    width: 50% !important;
+    height: 100% !important;
+    background-color:white;
+    margin: 0px 20px;
+    margin-top: -30px;
+    margin-left:-7px;
+}
+
+.sp div:first-child img:first-child{
+    width: 100%;
+    height: 180px;
+    border-radius: 10px;
+}
+.sp div:first-child img:nth-child(2){
+    width: 36px;
+    height: 15px;
+    margin:5px 8px;
+}
+.sp div:first-child p{
+    text-indent: 2rem;
+    font-size: 15px;
+    color: #434343;;
+    position:absolute;
+    top:170px;
+    left: 18px;
+}
+.sp div:first-child span{
+    position: absolute;
+    top:250px;
+    left:15px;
+    color: red;
+    font-size: 18px;
+}
+.sp div:first-child div{
+    width: 100px;
+    height: 20px;
+    /* border: 1px solid red; */
+   /* background-image: url(../img/券.png);
+   background-size: cover; */
+    border-radius: 0px;
+    text-align: center;
+    position: absolute;
+    right: 0px;
+    top:280px;
+    color: red;
+}
+#p{
+    position: absolute;
+    top:300px;
+    left:-15px;
+}
+.sp div:first-child button{
+    position: absolute;
+    top:315px;
+    right: 10px;
+    border-radius: 10px;
+    border:none;
+    background-color:gainsboro;
+}
+/* 二 */
+.sp div:nth-child(2) img:first-child{
+    width: 100%;
+    height: 180px;
+    border-radius: 10px;
+}
+.sp div:nth-child(2) img:nth-child(2){
+    width: 36px;
+    height: 15px;
+    margin:5px 8px;
+}
+.sp div:nth-child(2) p{
+    text-indent: 2rem;
+    font-size: 15px;
+    color: #434343;;
+    position:absolute;
+    top:170px;
+    left: 18px;
+}
+.sp div:nth-child(2) span{
+    position: absolute;
+    top:250px;
+    left:15px;
+    color: red;
+    font-size: 18px;
+}
+.sp div:nth-child(2) div{
+    width: 100px;
+    height: 20px;
+    /* border: 1px solid red; */
+   /* background-image: url(../img/券.png);
+   background-size: cover; */
+    border-radius: 0px;
+    text-align: center;
+    position: absolute;
+    right: 0px;
+    top:280px;
+    color: red;
+}
+#p{
+    position: absolute;
+    top:300px;
+    left:-15px;
+}
+.sp div:nth-child(2) button{
+    position: absolute;
+    top:315px;
+    right: 10px;
+    border-radius: 10px;
+    border:none;
+    background-color:gainsboro;
+}
