@@ -143,7 +143,7 @@ body {
 
 .input_txt{
     float: left;
-    width:270px;
+    width:230px;
     height:37px;
     border:0px;
     background-color: #f4f3f3;
@@ -159,7 +159,7 @@ body {
     height:37px;
     border:0px;
     background-color: #fe9697;
-    margin:9px 0 0 5px;
+    margin:9px 0 4px;
     border-radius:8px;
     padding:0px;
     outline:none;

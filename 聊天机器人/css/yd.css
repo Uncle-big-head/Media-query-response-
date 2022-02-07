@@ -1,7 +1,9 @@
 @media screen and (max-width:750px){
     .wrap{
+        width: 400px;
         top:0px;
         bottom:0px;
+        margin-left:-200px;
     }
     .header{
         width: 100%;
