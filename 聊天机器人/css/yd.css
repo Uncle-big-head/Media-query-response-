@@ -1,0 +1,12 @@
+@media screen and (max-width:750px){
+    .wrap{
+        top:0px;
+        bottom:0px;
+    }
+    .header{
+        width: 100%;
+    }
+    .footer img:first-child{
+        margin-left: 27px;
+    }
+}
